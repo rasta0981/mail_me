@@ -1,2 +1,2 @@
 # mail_me
-SMTP (gmail)
+Python SMTP (gmail)
