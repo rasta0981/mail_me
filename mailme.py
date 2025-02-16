@@ -11,7 +11,7 @@ __author__ = "@rasta0981 - Darren K."
 # -----------------------------------------------
 user_email = input("Your Email: ")
 subject = input("Subject: ")
-sender_email = "<Default gmail address of sender>" # replace with sender email  
+sender_email = "<Default gmail address of sender>" # replace with sender email
 mail_message = input("Message: ")
 text = f"Subject: {subject}\n\n{mail_message}"
 server = smtplib.SMTP("smtp.gmail.com", 587)
